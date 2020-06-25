@@ -1,0 +1,36 @@
+name: state_notifier_example
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+  # Architecture
+  provider: ^4.1.0
+  state_notifier:
+  flutter_state_notifier: ^0.4.2
+  freezed_annotation: ^0.7.1
+
+  # Storage
+  flutter_secure_storage: ^3.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^1.9.0
+  chopper_generator: ^3.0.4
+  json_serializable: ^3.3.0
+  freezed:
+
+  pedantic_mono: any
+
+flutter:
+  uses-material-design: true
