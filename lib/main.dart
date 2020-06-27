@@ -13,7 +13,7 @@ void main() => runApp(
         providers: [
           Provider(create: (_) => SecureRepository()),
           StateNotifierProvider<SplashController, SplashState>(
-              create: (context) => SplashController(context)),
+              create: (context) => SplashController()),
           StateNotifierProvider<LoginController, LoginState>(
               create: (_) => LoginController()),
         ],
